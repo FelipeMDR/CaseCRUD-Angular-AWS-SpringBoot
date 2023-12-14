@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://tdlbucket.s3-website-us-east-1.amazonaws.com")
 public class ListaController {
     
 	@Autowired
