@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @DataAmount
 @AllArgsConstructor
 @NoArgsConstructor
-@DynamoDBTable(tableName = "Casecrud")
+@DynamoDBTable(tableName = "tdl-db")
 public class Lista {
 	
     private String id;
